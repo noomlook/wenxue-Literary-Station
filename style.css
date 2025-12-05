@@ -431,7 +431,7 @@ body.bg-luoshenfu {
 }
 
 /* 《将进酒》：墨砚酒意 */
-body.bg-jiangjinjiu {
+body.bg-qiangjinjiu {
   background-image:
     radial-gradient(circle at top, #fdf7ec 0%, var(--bg-page) 50%, var(--bg-page-deep) 100%),
     url('https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
