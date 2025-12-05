@@ -404,3 +404,52 @@ h1 {
     letter-spacing: 0.25em;
   }
 }
+/* ===== 每个页面的背景图设置（可按喜好换图） ===== */
+
+/* 首页：淡淡古纸纹理 */
+body.bg-main {
+  background-image:
+    radial-gradient(circle at top, #fdf7ec 0%, var(--bg-page) 50%, var(--bg-page-deep) 100%),
+    url('https://images.unsplash.com/photo-1604644401890-0bd678c83788?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  background-position: center top, center;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: normal, soft-light;
+}
+
+/* 《洛神赋》：洛水山川 */
+body.bg-luoshenfu {
+  background-image:
+    radial-gradient(circle at top, #fdf7ec 0%, var(--bg-page) 50%, var(--bg-page-deep) 100%),
+    url('https://images.unsplash.com/photo-1545569341-9c0d4a2c3d3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  background-position: center top, center;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: normal, soft-light;
+}
+
+/* 《将进酒》：墨砚酒意 */
+body.bg-jiangjinjiu {
+  background-image:
+    radial-gradient(circle at top, #fdf7ec 0%, var(--bg-page) 50%, var(--bg-page-deep) 100%),
+    url('https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  background-position: center top, center;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: normal, soft-light;
+}
+
+/* 《长恨歌》：宫阙长廊 */
+body.bg-changhenge {
+  background-image:
+    radial-gradient(circle at top, #fdf7ec 0%, var(--bg-page) 50%, var(--bg-page-deep) 100%),
+    url('https://images.unsplash.com/photo-1588347818122-c0c57604572e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  background-position: center top, center;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: normal, soft-light;
+}
